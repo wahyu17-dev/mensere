@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="Website Profil Desa Mensere, Kecamatan Tebas, Kabupaten Sambas, Kalimantan Barat" name="description"/>
+<title>Desa Mensere | Fasilitas Desa</title>
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com" rel="preconnect"/>
+<link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&amp;family=Playfair+Display:wght@600;700&amp;display=swap" rel="stylesheet"/>
+<!-- Leaflet Map -->
+
+<!-- CSS -->
+<link href="style.css" rel="stylesheet"/>
+</head>
+<body>
+<header class="header" id="header">
+<div class="container nav">
+<a class="brand" href="index.html">
+<img alt="Logo Desa Mensere" src="images/mensere.png"/>
+<div class="brand-text">
+<strong>DESA MENSERE</strong>
+<span>Kecamatan Tebas • Kabupaten Sambas</span>
+</div>
+</a>
+<button aria-label="Menu" class="menu-toggle" id="menuToggle">
+
+            ☰
+
+        </button>
+<nav class="nav-links" id="navLinks">
+<a href="index.html">Beranda</a>
+<a href="profil.html">Profil</a>
+<a href="penduduk.html">Penduduk</a>
+<a href="pendidikan.html">Pendidikan</a>
+<a href="wilayah.html">Wilayah</a>
+<a href="fasilitas.html">Fasilitas</a>
+</nav>
+</div>
+</header>
+<main>
+<section class="section" id="fasilitas">
+<div class="container">
+<div class="section-heading">
+<p class="eyebrow green">FASILITAS PENTING</p>
+<h2>Fasilitas Desa Mensere</h2>
+<p>Mengenal berbagai fasilitas penting yang tersedia di Desa Mensere.</p>
+</div>
+<div aria-label="Filter fasilitas" class="facility-filters" role="group">
+<button class="facility-filter active" data-filter="all">Semua</button>
+<button class="facility-filter" data-filter="pemerintahan">Pemerintahan</button>
+<button class="facility-filter" data-filter="ibadah">Ibadah</button>
+<button class="facility-filter" data-filter="pendidikan">Pendidikan</button>
+<button class="facility-filter" data-filter="kesehatan">Kesehatan</button>
+<button class="facility-filter" data-filter="olahraga">Olahraga</button>
+</div>
+<div class="facility-photo-grid">
+<article class="facility-photo-card" data-category="pemerintahan">
+<div class="facility-photo-wrap">
+<img alt="Kantor Desa Desa Mensere" loading="lazy" src="images/kantor-desa.jpg"/>
+</div>
+<div class="facility-photo-content">
+<span class="facility-category">PEMERINTAHAN</span>
+<h3>Kantor Desa Mensere</h3>
+<p>Fasilitas pemerintahan dan Kegiatan Masyarakat Desa Mensere.</p>
+</div>
+</article>
+<article class="facility-photo-card" data-category="ibadah">
+<div class="facility-photo-wrap">
+<img alt="Masjid Al-Ikhlas Desa Mensere" loading="lazy" src="images/mesjid1.jpg"/>
+</div>
+<div class="facility-photo-content">
+<span class="facility-category">IBADAH</span>
+<h3>Masjid Al-Ikhlas</h3>
+<p>Tempat ibadah masyarakat Desa Mensere.</p>
+</div>
+</article>
+<article class="facility-photo-card" data-category="ibadah">
+<div class="facility-photo-wrap">
+<img alt="Masjid 2 Desa Mensere" loading="lazy" src="images/mesjid2.jpg"/>
+</div>
+<div class="facility-photo-content">
+<span class="facility-category">IBADAH</span>
+<h3>Masjid Nuruh Huda</h3>
+<p>Tempat ibadah masyarakat Desa Mensere.</p>
+</div>
+</article>
+<article class="facility-photo-card" data-category="ibadah">
+<div class="facility-photo-wrap">
+<img alt="Masjid 3 Desa Mensere" loading="lazy" src="images/mesjid3.jpg"/>
+</div>
+<div class="facility-photo-content">
+<span class="facility-category">IBADAH</span>
+<h3>Masjid Al-Hajar</h3>
+<p>Tempat ibadah masyarakat Desa Mensere.</p>
+</div>
+</article>
+<article class="facility-photo-card" data-category="ibadah">
+<div class="facility-photo-wrap">
+<img alt="Masjid 4 Desa Mensere" loading="lazy" src="images/mesjid4.jpg"/>
+</div>
+<div class="facility-photo-content">
+<span class="facility-category">IBADAH</span>
+<h3>Masjid Al-Hamid</h3>
+<p>Tempat ibadah masyarakat Desa Mensere.</p>
+</div>
+</article>
+<article class="facility-photo-card" data-category="ibadah">
+<div class="facility-photo-wrap">
+<img alt="Masjid 5 Desa Mensere" loading="lazy" src="images/mesjid5.jpg"/>
+</div>
+<div class="facility-photo-content">
+<span class="facility-category">IBADAH</span>
+<h3>Masjid At Taqwa</h3>
+<p>Tempat ibadah masyarakat Desa Mensere.</p>
+</div>
+</article>
+<article class="facility-photo-card" data-category="pendidikan">
+<div class="facility-photo-wrap">
+<img alt="PAUD 1 Desa Mensere" loading="lazy" src="images/paud1.jpg"/>
+</div>
+<div class="facility-photo-content">
+<span class="facility-category">PENDIDIKAN</span>
+<h3>Paud KB Nur Hidayah</h3>
+<p>Fasilitas pendidikan anak usia dini.</p>
+</div>
+</article>
+<article class="facility-photo-card" data-category="pendidikan">
+<div class="facility-photo-wrap">
+<img alt="PAUD 2 Desa Mensere" loading="lazy" src="images/paud2.jpg"/>
+</div>
+<div class="facility-photo-content">
+<span class="facility-category">PENDIDIKAN</span>
+<h3>Paud KB Nur Asih</h3>
+<p>Fasilitas pendidikan anak usia dini.</p>
+</div>
+</article>
+<article class="facility-photo-card" data-category="pendidikan">
+<div class="facility-photo-wrap">
+<img alt="SD 1 Desa Mensere" loading="lazy" src="images/sd1.jpg"/>
+</div>
+<div class="facility-photo-content">
+<span class="facility-category">PENDIDIKAN</span>
+<h3>SDN 06 Mensere</h3>
+<p>Fasilitas pendidikan dasar di Desa Mensere.</p>
+</div>
+</article>
+<article class="facility-photo-card" data-category="pendidikan">
+<div class="facility-photo-wrap">
+<img alt="SD 2 Desa Mensere" loading="lazy" src="images/sd2.jpg"/>
+</div>
+<div class="facility-photo-content">
+<span class="facility-category">PENDIDIKAN</span>
+<h3>SDN 34 Mensere</h3>
+<p>Fasilitas pendidikan dasar di Desa Mensere.</p>
+</div>
+</article>
+<article class="facility-photo-card" data-category="pendidikan">
+<div class="facility-photo-wrap">
+<img alt="MTs Desa Mensere" loading="lazy" src="images/mts.jpg"/>
+</div>
+<div class="facility-photo-content">
+<span class="facility-category">PENDIDIKAN</span>
+<h3>MTs At Taqwa Mensere</h3>
+<p>Fasilitas pendidikan jenjang menengah.</p>
+</div>
+</article>
+<article class="facility-photo-card" data-category="kesehatan">
+<div class="facility-photo-wrap">
+<img alt="Polindes Desa Mensere" loading="lazy" src="images/polindes.jpg"/>
+</div>
+<div class="facility-photo-content">
+<span class="facility-category">KESEHATAN</span>
+<h3>Polindes</h3>
+<p>Polindes desa mensere.</p>
+</div>
+</article>
+<article class="facility-photo-card" data-category="olahraga">
+<div class="facility-photo-wrap">
+<img alt="Lapangan Bola Desa Mensere" loading="lazy" src="images/lapbol.jpg"/>
+</div>
+<div class="facility-photo-content">
+<span class="facility-category">OLAHRAGA</span>
+<h3>Lapangan Bola</h3>
+<p>Fasilitas olahraga dan kegiatan masyarakat.</p>
+</div>
+</article>
+<article class="facility-photo-card" data-category="olahraga">
+<div class="facility-photo-wrap">
+<img alt="Gedung Badminton Desa Mensere" loading="lazy" src="images/gor1.png"/>
+</div>
+<div class="facility-photo-content">
+<span class="facility-category">OLAHRAGA</span>
+<h3>Gedung Badminton</h3>
+<p>Fasilitas olahraga masyarakat Desa Mensere.</p>
+</div>
+</article>
+</div>
+<div class="info-banner">
+<div>
+<p class="eyebrow green">INFORMASI</p>
+<h3>Mengenal fasilitas Desa Mensere</h3>
+<p>Foto dan informasi fasilitas dapat diperbarui sesuai data terbaru yang dimiliki desa.</p>
+</div>
+<a class="btn btn-primary" href="#beranda">Kembali ke Atas</a>
+</div>
+</div>
+</section>
+</main>
+<footer class="footer">
+<div class="container footer-content">
+<div class="footer-brand">
+<img alt="Logo Desa Mensere" src="images/mensere.png"/>
+<div>
+<strong>
+                    DESA MENSERE
+                </strong>
+<p>
+                    Kecamatan Tebas,
+                    Kabupaten Sambas,
+                    Kalimantan Barat
+                </p>
+</div>
+</div>
+<div class="footer-right">
+<p>
+                © 2026 Desa Mensere
+            </p>
+<span>
+                Website Profil Desa<br/> By : Wahyu
+            </span>
+</div>
+</div>
+</footer>
+<script src="script.js"></script>
+</body>
+</html>
